@@ -1,0 +1,118 @@
+.over {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: white;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.login-page {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-page h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid silver;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+.login-page form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt_field {
+  position: relative;
+  border-bottom: 2px solid #284b63;
+  margin: 30px 0;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #284b63;
+  transition: 0.5s;
+}
+
+.Pass {
+  margin: -5px 0 20px 5px;
+  color: #464646;
+  cursor: pointer;
+}
+
+.Pass:hover {
+  text-decoration: underline;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  color: #284b63;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+  width: 100%;
+}
+
+.login-page form button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #284b63;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+.login-page form button:hover {
+  border-color: #284b63;
+  transition: 0.5s;
+}
+
+.Reg {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #464646;
+}

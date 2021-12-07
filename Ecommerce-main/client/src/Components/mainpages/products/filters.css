@@ -1,0 +1,19 @@
+.filter_menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 115px;
+  width: 100%;
+  min-height: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 500;
+  color: #353535;
+}
+
+.filter_menu select {
+  border: 1px solid #ccc;
+  height: 30px;
+  padding: 0 5px;
+}

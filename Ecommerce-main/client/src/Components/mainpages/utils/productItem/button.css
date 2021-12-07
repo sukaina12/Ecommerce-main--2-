@@ -1,0 +1,30 @@
+.row_btn {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #btn_buy {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+    background: #284b63;
+    margin-right: 5px;
+  }
+  
+  #btn_view {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+    background: #d9d9d9;
+    margin-left: 5px;
+  }
